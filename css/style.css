@@ -439,7 +439,9 @@ No media query for `xs` since this is the default in Bootstrap */
 .contact .container .info .social i {
   margin-left: 20px;
   color: var(--Secondery-color);
-  transition: 0.5s transform ease-in-out;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  transition-property: all;
 }
 @media (max-width: 768px) {
   .contact .container .info .social {
@@ -455,6 +457,7 @@ No media query for `xs` since this is the default in Bootstrap */
 }
 .contact .container .info .social .links-box i:hover {
   transform: scale(1.5);
+  color: var(--primary-color);
 }
 .contact .container .info .link:hover {
   transform: scale(1.5);
