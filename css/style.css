@@ -177,7 +177,7 @@ No media query for `xs` since this is the default in Bootstrap */
   border-bottom: 1px solid var(--Secondery-color);
 }
 .landing {
-  background-image: url(/images/mountain-2-C.jpg);
+  background-image: url(./images/mountain-2-C.jpg);
   background-size: cover;
   height: calc(100vh - 64px);
   position: relative;
